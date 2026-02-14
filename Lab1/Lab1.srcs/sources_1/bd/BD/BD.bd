@@ -3185,6 +3185,350 @@
           }
         }
       }
+    },
+    "nets": {
+      "intcon_wrapper_bd_0_o_ifu_arready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_arready",
+          "swerv_wrapper_verilog_0/ifu_axi_arready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_ifu_rdata": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_rdata",
+          "swerv_wrapper_verilog_0/ifu_axi_rdata"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_ifu_rid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_rid",
+          "swerv_wrapper_verilog_0/ifu_axi_rid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_ifu_rlast": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_rlast",
+          "swerv_wrapper_verilog_0/ifu_axi_rlast"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_ifu_rresp": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_rresp",
+          "swerv_wrapper_verilog_0/ifu_axi_rresp"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_ifu_rvalid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_ifu_rvalid",
+          "swerv_wrapper_verilog_0/ifu_axi_rvalid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_arready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_arready",
+          "swerv_wrapper_verilog_0/lsu_axi_arready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_awready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_awready",
+          "swerv_wrapper_verilog_0/lsu_axi_awready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_bid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_bid",
+          "swerv_wrapper_verilog_0/lsu_axi_bid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_bresp": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_bresp",
+          "swerv_wrapper_verilog_0/lsu_axi_bresp"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_bvalid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_bvalid",
+          "swerv_wrapper_verilog_0/lsu_axi_bvalid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_rdata": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_rdata",
+          "swerv_wrapper_verilog_0/lsu_axi_rdata"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_rid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_rid",
+          "swerv_wrapper_verilog_0/lsu_axi_rid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_rlast": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_rlast",
+          "swerv_wrapper_verilog_0/lsu_axi_rlast"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_rresp": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_rresp",
+          "swerv_wrapper_verilog_0/lsu_axi_rresp"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_rvalid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_rvalid",
+          "swerv_wrapper_verilog_0/lsu_axi_rvalid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_lsu_wready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_lsu_wready",
+          "swerv_wrapper_verilog_0/lsu_axi_wready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_araddr": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_araddr",
+          "intcon_wrapper_bd_0/i_ifu_araddr"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arburst": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arburst",
+          "intcon_wrapper_bd_0/i_ifu_arburst"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arcache": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arcache",
+          "intcon_wrapper_bd_0/i_ifu_arcache"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arid",
+          "intcon_wrapper_bd_0/i_ifu_arid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arlen": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arlen",
+          "intcon_wrapper_bd_0/i_ifu_arlen"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arlock": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arlock",
+          "intcon_wrapper_bd_0/i_ifu_arlock"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arprot": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arprot",
+          "intcon_wrapper_bd_0/i_ifu_arprot"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arqos": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arqos",
+          "intcon_wrapper_bd_0/i_ifu_arqos"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arregion": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arregion",
+          "intcon_wrapper_bd_0/i_ifu_arregion"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arsize": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arsize",
+          "intcon_wrapper_bd_0/i_ifu_arsize"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_arvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_arvalid",
+          "intcon_wrapper_bd_0/i_ifu_arvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_ifu_axi_rready": {
+        "ports": [
+          "swerv_wrapper_verilog_0/ifu_axi_rready",
+          "intcon_wrapper_bd_0/i_ifu_rready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_araddr": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_araddr",
+          "intcon_wrapper_bd_0/i_lsu_araddr"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arburst": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arburst",
+          "intcon_wrapper_bd_0/i_lsu_arburst"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arcache": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arcache",
+          "intcon_wrapper_bd_0/i_lsu_arcache"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arid",
+          "intcon_wrapper_bd_0/i_lsu_arid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arlen": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arlen",
+          "intcon_wrapper_bd_0/i_lsu_arlen"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arlock": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arlock",
+          "intcon_wrapper_bd_0/i_lsu_arlock"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arprot": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arprot",
+          "intcon_wrapper_bd_0/i_lsu_arprot"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arqos": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arqos",
+          "intcon_wrapper_bd_0/i_lsu_arqos"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arregion": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arregion",
+          "intcon_wrapper_bd_0/i_lsu_arregion"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arsize": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arsize",
+          "intcon_wrapper_bd_0/i_lsu_arsize"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_arvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_arvalid",
+          "intcon_wrapper_bd_0/i_lsu_arvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awaddr": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awaddr",
+          "intcon_wrapper_bd_0/i_lsu_awaddr"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awburst": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awburst",
+          "intcon_wrapper_bd_0/i_lsu_awburst"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awcache": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awcache",
+          "intcon_wrapper_bd_0/i_lsu_awcache"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awid",
+          "intcon_wrapper_bd_0/i_lsu_awid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awlen": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awlen",
+          "intcon_wrapper_bd_0/i_lsu_awlen"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awlock": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awlock",
+          "intcon_wrapper_bd_0/i_lsu_awlock"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awprot": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awprot",
+          "intcon_wrapper_bd_0/i_lsu_awprot"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awqos": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awqos",
+          "intcon_wrapper_bd_0/i_lsu_awqos"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awregion": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awregion",
+          "intcon_wrapper_bd_0/i_lsu_awregion"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awsize": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awsize",
+          "intcon_wrapper_bd_0/i_lsu_awsize"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_awvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_awvalid",
+          "intcon_wrapper_bd_0/i_lsu_awvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_bready": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_bready",
+          "intcon_wrapper_bd_0/i_lsu_bready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_rready": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_rready",
+          "intcon_wrapper_bd_0/i_lsu_rready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_wdata": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_wdata",
+          "intcon_wrapper_bd_0/i_lsu_wdata"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_wlast": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_wlast",
+          "intcon_wrapper_bd_0/i_lsu_wlast"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_wstrb": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_wstrb",
+          "intcon_wrapper_bd_0/i_lsu_wstrb"
+        ]
+      },
+      "swerv_wrapper_verilog_0_lsu_axi_wvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/lsu_axi_wvalid",
+          "intcon_wrapper_bd_0/i_lsu_wvalid"
+        ]
+      }
     }
   }
 }

@@ -1,49 +1,106 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.103087",
-   "Default View_TopLeft":"-5849,-19",
+   "Default View_ScaleFactor":"0.441942",
+   "Default View_TopLeft":"-697,-170",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
-preplace inst swerv_wrapper_verilog_0 -pg 1 -lvl 1 -x 190 -y 150 -defaultsOSRD
-preplace inst intcon_wrapper_bd_0 -pg 1 -lvl 2 -x 590 -y 1130 -defaultsOSRD
-preplace inst bootrom_wrapper_0 -pg 1 -lvl 4 -x 1270 -y 1090 -defaultsOSRD
-preplace inst gpio_wrapper_0 -pg 1 -lvl 3 -x 960 -y 730 -defaultsOSRD
-preplace inst syscon_wrapper_0 -pg 1 -lvl 1 -x 190 -y 450 -defaultsOSRD
-preplace inst bidirec_0 -pg 1 -lvl 5 -x 1710 -y 60 -defaultsOSRD
-preplace inst bidirec_1 -pg 1 -lvl 5 -x 1710 -y 180 -defaultsOSRD
-preplace inst bidirec_2 -pg 1 -lvl 5 -x 1710 -y 300 -defaultsOSRD
-preplace inst bidirec_3 -pg 1 -lvl 5 -x 1710 -y 420 -defaultsOSRD
-preplace inst bidirec_4 -pg 1 -lvl 5 -x 1710 -y 540 -defaultsOSRD
-preplace inst bidirec_5 -pg 1 -lvl 5 -x 1710 -y 660 -defaultsOSRD
-preplace inst bidirec_6 -pg 1 -lvl 5 -x 1710 -y 780 -defaultsOSRD
-preplace inst bidirec_7 -pg 1 -lvl 5 -x 1710 -y 900 -defaultsOSRD
-preplace inst bidirec_8 -pg 1 -lvl 5 -x 1710 -y 1020 -defaultsOSRD
-preplace inst bidirec_9 -pg 1 -lvl 5 -x 1710 -y 1140 -defaultsOSRD
-preplace inst bidirec_10 -pg 1 -lvl 5 -x 1710 -y 1260 -defaultsOSRD
-preplace inst bidirec_11 -pg 1 -lvl 5 -x 1710 -y 1380 -defaultsOSRD
-preplace inst bidirec_12 -pg 1 -lvl 5 -x 1710 -y 1500 -defaultsOSRD
-preplace inst bidirec_13 -pg 1 -lvl 5 -x 1710 -y 1620 -defaultsOSRD
-preplace inst bidirec_14 -pg 1 -lvl 5 -x 1710 -y 1740 -defaultsOSRD
-preplace inst bidirec_15 -pg 1 -lvl 5 -x 1710 -y 1860 -defaultsOSRD
-preplace inst bidirec_16 -pg 1 -lvl 6 -x 1930 -y 50 -defaultsOSRD
-preplace inst bidirec_17 -pg 1 -lvl 6 -x 1930 -y 170 -defaultsOSRD
-preplace inst bidirec_18 -pg 1 -lvl 6 -x 1930 -y 290 -defaultsOSRD
-preplace inst bidirec_19 -pg 1 -lvl 6 -x 1930 -y 540 -defaultsOSRD
-preplace inst bidirec_20 -pg 1 -lvl 6 -x 1930 -y 420 -defaultsOSRD
-preplace inst bidirec_21 -pg 1 -lvl 6 -x 1930 -y 660 -defaultsOSRD
-preplace inst bidirec_22 -pg 1 -lvl 6 -x 1930 -y 780 -defaultsOSRD
-preplace inst bidirec_23 -pg 1 -lvl 6 -x 1930 -y 900 -defaultsOSRD
-preplace inst bidirec_24 -pg 1 -lvl 6 -x 1930 -y 1020 -defaultsOSRD
-preplace inst bidirec_25 -pg 1 -lvl 6 -x 1930 -y 1140 -defaultsOSRD
-preplace inst bidirec_26 -pg 1 -lvl 6 -x 1930 -y 1260 -defaultsOSRD
-preplace inst bidirec_27 -pg 1 -lvl 6 -x 1930 -y 1380 -defaultsOSRD
-preplace inst bidirec_28 -pg 1 -lvl 6 -x 1930 -y 1500 -defaultsOSRD
-preplace inst bidirec_29 -pg 1 -lvl 6 -x 1930 -y 1620 -defaultsOSRD
-preplace inst bidirec_30 -pg 1 -lvl 6 -x 1930 -y 1740 -defaultsOSRD
-preplace inst bidirec_31 -pg 1 -lvl 6 -x 1930 -y 1860 -defaultsOSRD
-levelinfo -pg 1 0 190 590 960 1270 1710 1930 2030
-pagesize -pg 1 -db -bbox -sgen 0 -610 2030 2260
+preplace inst swerv_wrapper_verilog_0 -pg 1 -lvl 1 -x -570 -y 1030 -defaultsOSRD
+preplace inst intcon_wrapper_bd_0 -pg 1 -lvl 2 -x 230 -y 1070 -defaultsOSRD
+preplace inst bootrom_wrapper_0 -pg 1 -lvl 3 -x 790 -y 120 -defaultsOSRD
+preplace inst gpio_wrapper_0 -pg 1 -lvl 4 -x 1280 -y 740 -defaultsOSRD
+preplace inst syscon_wrapper_0 -pg 1 -lvl 3 -x 790 -y 900 -defaultsOSRD
+preplace inst bidirec_0 -pg 1 -lvl 5 -x 1790 -y 60 -defaultsOSRD
+preplace inst bidirec_1 -pg 1 -lvl 5 -x 1790 -y 180 -defaultsOSRD
+preplace inst bidirec_2 -pg 1 -lvl 5 -x 1790 -y 300 -defaultsOSRD
+preplace inst bidirec_3 -pg 1 -lvl 5 -x 1790 -y 420 -defaultsOSRD
+preplace inst bidirec_4 -pg 1 -lvl 5 -x 1790 -y 540 -defaultsOSRD
+preplace inst bidirec_5 -pg 1 -lvl 5 -x 1790 -y 660 -defaultsOSRD
+preplace inst bidirec_6 -pg 1 -lvl 5 -x 1790 -y 780 -defaultsOSRD
+preplace inst bidirec_7 -pg 1 -lvl 5 -x 1790 -y 900 -defaultsOSRD
+preplace inst bidirec_8 -pg 1 -lvl 5 -x 1790 -y 1020 -defaultsOSRD
+preplace inst bidirec_9 -pg 1 -lvl 5 -x 1790 -y 1140 -defaultsOSRD
+preplace inst bidirec_10 -pg 1 -lvl 5 -x 1790 -y 1260 -defaultsOSRD
+preplace inst bidirec_11 -pg 1 -lvl 5 -x 1790 -y 1380 -defaultsOSRD
+preplace inst bidirec_12 -pg 1 -lvl 5 -x 1790 -y 1500 -defaultsOSRD
+preplace inst bidirec_13 -pg 1 -lvl 5 -x 1790 -y 1620 -defaultsOSRD
+preplace inst bidirec_14 -pg 1 -lvl 5 -x 1790 -y 1740 -defaultsOSRD
+preplace inst bidirec_15 -pg 1 -lvl 5 -x 1790 -y 1860 -defaultsOSRD
+preplace inst bidirec_16 -pg 1 -lvl 6 -x 1980 -y 50 -defaultsOSRD
+preplace inst bidirec_17 -pg 1 -lvl 6 -x 1980 -y 170 -defaultsOSRD
+preplace inst bidirec_18 -pg 1 -lvl 6 -x 1980 -y 290 -defaultsOSRD
+preplace inst bidirec_19 -pg 1 -lvl 6 -x 1980 -y 540 -defaultsOSRD
+preplace inst bidirec_20 -pg 1 -lvl 6 -x 1980 -y 420 -defaultsOSRD
+preplace inst bidirec_21 -pg 1 -lvl 6 -x 1980 -y 660 -defaultsOSRD
+preplace inst bidirec_22 -pg 1 -lvl 6 -x 1980 -y 780 -defaultsOSRD
+preplace inst bidirec_23 -pg 1 -lvl 6 -x 1980 -y 900 -defaultsOSRD
+preplace inst bidirec_24 -pg 1 -lvl 6 -x 1980 -y 1020 -defaultsOSRD
+preplace inst bidirec_25 -pg 1 -lvl 6 -x 1980 -y 1140 -defaultsOSRD
+preplace inst bidirec_26 -pg 1 -lvl 6 -x 1980 -y 1260 -defaultsOSRD
+preplace inst bidirec_27 -pg 1 -lvl 6 -x 1980 -y 1380 -defaultsOSRD
+preplace inst bidirec_28 -pg 1 -lvl 6 -x 1980 -y 1500 -defaultsOSRD
+preplace inst bidirec_29 -pg 1 -lvl 6 -x 1980 -y 1620 -defaultsOSRD
+preplace inst bidirec_30 -pg 1 -lvl 6 -x 1980 -y 1740 -defaultsOSRD
+preplace inst bidirec_31 -pg 1 -lvl 6 -x 1980 -y 1860 -defaultsOSRD
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arid 1 1 1 N 60
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_araddr 1 1 1 N 80
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arlen 1 1 1 N 100
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arsize 1 1 1 N 120
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arburst 1 1 1 N 140
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arlock 1 1 1 N 160
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arcache 1 1 1 N 180
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arprot 1 1 1 N 200
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arregion 1 1 1 N 220
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arqos 1 1 1 N 240
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arvalid 1 1 1 N 260
+preplace netloc intcon_wrapper_bd_0_o_ifu_arready 1 1 2 -370J -130 460
+preplace netloc intcon_wrapper_bd_0_o_ifu_rid 1 1 2 -340 -70 440
+preplace netloc intcon_wrapper_bd_0_o_ifu_rdata 1 1 2 -360 -120 480
+preplace netloc intcon_wrapper_bd_0_o_ifu_rresp 1 1 2 -350 -110 470
+preplace netloc intcon_wrapper_bd_0_o_ifu_rlast 1 1 2 -320 -60 450
+preplace netloc intcon_wrapper_bd_0_o_ifu_rvalid 1 1 2 -330 -100 500
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_rready 1 1 1 -310 280n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awid 1 1 1 -300 300n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awaddr 1 1 1 -290 320n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awlen 1 1 1 -270 340n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awsize 1 1 1 -250 360n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awburst 1 1 1 -230 380n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awlock 1 1 1 -210 400n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awcache 1 1 1 -200 420n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awprot 1 1 1 -180 440n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awregion 1 1 1 -170 460n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awqos 1 1 1 -160 480n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awvalid 1 1 1 -150 500n
+preplace netloc intcon_wrapper_bd_0_o_lsu_awready 1 1 2 -260 -90 490
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wdata 1 1 1 -140 520n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wstrb 1 1 1 -130 540n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wlast 1 1 1 -120 560n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wvalid 1 1 1 -110 580n
+preplace netloc intcon_wrapper_bd_0_o_lsu_wready 1 1 2 -280 -160 520
+preplace netloc intcon_wrapper_bd_0_o_lsu_arready 1 1 2 -10 2200 470
+preplace netloc intcon_wrapper_bd_0_o_lsu_bid 1 1 2 -190 -80 510
+preplace netloc intcon_wrapper_bd_0_o_lsu_bresp 1 1 2 -240 -150 540
+preplace netloc intcon_wrapper_bd_0_o_lsu_bvalid 1 1 2 -220 -140 530
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_bready 1 1 1 -40 820n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arid 1 1 1 -100 600n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_araddr 1 1 1 -90 620n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arlen 1 1 1 -80 640n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arsize 1 1 1 -70 660n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arburst 1 1 1 -60 680n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arlock 1 1 1 -50 700n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arcache 1 1 1 -30 720n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arprot 1 1 1 -20 740n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arregion 1 1 1 -10 760n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arqos 1 1 1 0 780n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arvalid 1 1 1 10 800n
+preplace netloc intcon_wrapper_bd_0_o_lsu_rid 1 1 2 -90 2220 490
+preplace netloc intcon_wrapper_bd_0_o_lsu_rdata 1 1 2 -160 2210 450
+preplace netloc intcon_wrapper_bd_0_o_lsu_rlast 1 1 2 -250 2230 440
+preplace netloc intcon_wrapper_bd_0_o_lsu_rresp 1 1 2 -210 2240 480
+preplace netloc intcon_wrapper_bd_0_o_lsu_rvalid 1 1 2 -320 2250 460
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_rready 1 1 1 20 840n
+levelinfo -pg 1 -780 -570 230 790 1280 1790 1980 2080
+pagesize -pg 1 -db -bbox -sgen -780 -940 2080 2780
 "
 }
-
+0
