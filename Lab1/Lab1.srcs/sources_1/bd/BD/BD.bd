@@ -3187,6 +3187,618 @@
       }
     },
     "nets": {
+      "bidirec_0_outp": {
+        "ports": [
+          "bidirec_0/outp",
+          "gpio_wrapper_0/outp_0"
+        ]
+      },
+      "bidirec_10_outp": {
+        "ports": [
+          "bidirec_10/outp",
+          "gpio_wrapper_0/outp_10"
+        ]
+      },
+      "bidirec_11_outp": {
+        "ports": [
+          "bidirec_11/outp",
+          "gpio_wrapper_0/outp_11"
+        ]
+      },
+      "bidirec_12_outp": {
+        "ports": [
+          "bidirec_12/outp",
+          "gpio_wrapper_0/outp_12"
+        ]
+      },
+      "bidirec_13_outp": {
+        "ports": [
+          "bidirec_13/outp",
+          "gpio_wrapper_0/outp_13"
+        ]
+      },
+      "bidirec_14_outp": {
+        "ports": [
+          "bidirec_14/outp",
+          "gpio_wrapper_0/outp_14"
+        ]
+      },
+      "bidirec_15_outp": {
+        "ports": [
+          "bidirec_15/outp",
+          "gpio_wrapper_0/outp_15"
+        ]
+      },
+      "bidirec_16_outp": {
+        "ports": [
+          "bidirec_16/outp",
+          "gpio_wrapper_0/outp_16"
+        ]
+      },
+      "bidirec_17_outp": {
+        "ports": [
+          "bidirec_17/outp",
+          "gpio_wrapper_0/outp_17"
+        ]
+      },
+      "bidirec_18_outp": {
+        "ports": [
+          "bidirec_18/outp",
+          "gpio_wrapper_0/outp_18"
+        ]
+      },
+      "bidirec_19_outp": {
+        "ports": [
+          "bidirec_19/outp",
+          "gpio_wrapper_0/outp_19"
+        ]
+      },
+      "bidirec_1_outp": {
+        "ports": [
+          "bidirec_1/outp",
+          "gpio_wrapper_0/outp_1"
+        ]
+      },
+      "bidirec_20_outp": {
+        "ports": [
+          "bidirec_20/outp",
+          "gpio_wrapper_0/outp_20"
+        ]
+      },
+      "bidirec_21_outp": {
+        "ports": [
+          "bidirec_21/outp",
+          "gpio_wrapper_0/outp_21"
+        ]
+      },
+      "bidirec_22_outp": {
+        "ports": [
+          "bidirec_22/outp",
+          "gpio_wrapper_0/outp_22"
+        ]
+      },
+      "bidirec_23_outp": {
+        "ports": [
+          "bidirec_23/outp",
+          "gpio_wrapper_0/outp_23"
+        ]
+      },
+      "bidirec_24_outp": {
+        "ports": [
+          "bidirec_24/outp",
+          "gpio_wrapper_0/outp_24"
+        ]
+      },
+      "bidirec_25_outp": {
+        "ports": [
+          "bidirec_25/outp",
+          "gpio_wrapper_0/outp_25"
+        ]
+      },
+      "bidirec_26_outp": {
+        "ports": [
+          "bidirec_26/outp",
+          "gpio_wrapper_0/outp_26"
+        ]
+      },
+      "bidirec_27_outp": {
+        "ports": [
+          "bidirec_27/outp",
+          "gpio_wrapper_0/outp_27"
+        ]
+      },
+      "bidirec_28_outp": {
+        "ports": [
+          "bidirec_28/outp",
+          "gpio_wrapper_0/outp_28"
+        ]
+      },
+      "bidirec_29_outp": {
+        "ports": [
+          "bidirec_29/outp",
+          "gpio_wrapper_0/outp_29"
+        ]
+      },
+      "bidirec_2_outp": {
+        "ports": [
+          "bidirec_2/outp",
+          "gpio_wrapper_0/outp_2"
+        ]
+      },
+      "bidirec_30_outp": {
+        "ports": [
+          "bidirec_30/outp",
+          "gpio_wrapper_0/outp_30"
+        ]
+      },
+      "bidirec_31_outp": {
+        "ports": [
+          "bidirec_31/outp",
+          "gpio_wrapper_0/outp_31"
+        ]
+      },
+      "bidirec_3_outp": {
+        "ports": [
+          "bidirec_3/outp",
+          "gpio_wrapper_0/outp_3"
+        ]
+      },
+      "bidirec_4_outp": {
+        "ports": [
+          "bidirec_4/outp",
+          "gpio_wrapper_0/outp_4"
+        ]
+      },
+      "bidirec_5_outp": {
+        "ports": [
+          "bidirec_5/outp",
+          "gpio_wrapper_0/outp_5"
+        ]
+      },
+      "bidirec_6_outp": {
+        "ports": [
+          "bidirec_6/outp",
+          "gpio_wrapper_0/outp_6"
+        ]
+      },
+      "bidirec_7_outp": {
+        "ports": [
+          "bidirec_7/outp",
+          "gpio_wrapper_0/outp_7"
+        ]
+      },
+      "bidirec_8_outp": {
+        "ports": [
+          "bidirec_8/outp",
+          "gpio_wrapper_0/outp_8"
+        ]
+      },
+      "bidirec_9_outp": {
+        "ports": [
+          "bidirec_9/outp",
+          "gpio_wrapper_0/outp_9"
+        ]
+      },
+      "bootrom_wrapper_0_o_wb_ack": {
+        "ports": [
+          "bootrom_wrapper_0/o_wb_ack",
+          "intcon_wrapper_bd_0/wb_rom_ack_i"
+        ]
+      },
+      "bootrom_wrapper_0_o_wb_rdt": {
+        "ports": [
+          "bootrom_wrapper_0/o_wb_rdt",
+          "intcon_wrapper_bd_0/wb_rom_dat_i"
+        ]
+      },
+      "gpio_wrapper_0_inp_0": {
+        "ports": [
+          "gpio_wrapper_0/inp_0",
+          "bidirec_0/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_1": {
+        "ports": [
+          "gpio_wrapper_0/inp_1",
+          "bidirec_1/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_2": {
+        "ports": [
+          "gpio_wrapper_0/inp_2",
+          "bidirec_2/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_3": {
+        "ports": [
+          "gpio_wrapper_0/inp_3",
+          "bidirec_3/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_4": {
+        "ports": [
+          "gpio_wrapper_0/inp_4",
+          "bidirec_4/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_5": {
+        "ports": [
+          "gpio_wrapper_0/inp_5",
+          "bidirec_5/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_6": {
+        "ports": [
+          "gpio_wrapper_0/inp_6",
+          "bidirec_6/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_7": {
+        "ports": [
+          "gpio_wrapper_0/inp_7",
+          "bidirec_7/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_8": {
+        "ports": [
+          "gpio_wrapper_0/inp_8",
+          "bidirec_8/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_9": {
+        "ports": [
+          "gpio_wrapper_0/inp_9",
+          "bidirec_9/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_10": {
+        "ports": [
+          "gpio_wrapper_0/inp_10",
+          "bidirec_10/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_11": {
+        "ports": [
+          "gpio_wrapper_0/inp_11",
+          "bidirec_11/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_12": {
+        "ports": [
+          "gpio_wrapper_0/inp_12",
+          "bidirec_12/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_13": {
+        "ports": [
+          "gpio_wrapper_0/inp_13",
+          "bidirec_13/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_14": {
+        "ports": [
+          "gpio_wrapper_0/inp_14",
+          "bidirec_14/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_15": {
+        "ports": [
+          "gpio_wrapper_0/inp_15",
+          "bidirec_15/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_16": {
+        "ports": [
+          "gpio_wrapper_0/inp_16",
+          "bidirec_16/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_17": {
+        "ports": [
+          "gpio_wrapper_0/inp_17",
+          "bidirec_17/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_18": {
+        "ports": [
+          "gpio_wrapper_0/inp_18",
+          "bidirec_18/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_19": {
+        "ports": [
+          "gpio_wrapper_0/inp_19",
+          "bidirec_19/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_20": {
+        "ports": [
+          "gpio_wrapper_0/inp_20",
+          "bidirec_20/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_21": {
+        "ports": [
+          "gpio_wrapper_0/inp_21",
+          "bidirec_21/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_22": {
+        "ports": [
+          "gpio_wrapper_0/inp_22",
+          "bidirec_22/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_23": {
+        "ports": [
+          "gpio_wrapper_0/inp_23",
+          "bidirec_23/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_24": {
+        "ports": [
+          "gpio_wrapper_0/inp_24",
+          "bidirec_24/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_25": {
+        "ports": [
+          "gpio_wrapper_0/inp_25",
+          "bidirec_25/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_26": {
+        "ports": [
+          "gpio_wrapper_0/inp_26",
+          "bidirec_26/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_27": {
+        "ports": [
+          "gpio_wrapper_0/inp_27",
+          "bidirec_27/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_28": {
+        "ports": [
+          "gpio_wrapper_0/inp_28",
+          "bidirec_28/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_29": {
+        "ports": [
+          "gpio_wrapper_0/inp_29",
+          "bidirec_29/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_30": {
+        "ports": [
+          "gpio_wrapper_0/inp_30",
+          "bidirec_30/inp"
+        ]
+      },
+      "gpio_wrapper_0_inp_31": {
+        "ports": [
+          "gpio_wrapper_0/inp_31",
+          "bidirec_31/inp"
+        ]
+      },
+      "gpio_wrapper_0_oe_0": {
+        "ports": [
+          "gpio_wrapper_0/oe_0",
+          "bidirec_0/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_1": {
+        "ports": [
+          "gpio_wrapper_0/oe_1",
+          "bidirec_1/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_2": {
+        "ports": [
+          "gpio_wrapper_0/oe_2",
+          "bidirec_2/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_3": {
+        "ports": [
+          "gpio_wrapper_0/oe_3",
+          "bidirec_3/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_4": {
+        "ports": [
+          "gpio_wrapper_0/oe_4",
+          "bidirec_4/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_5": {
+        "ports": [
+          "gpio_wrapper_0/oe_5",
+          "bidirec_5/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_6": {
+        "ports": [
+          "gpio_wrapper_0/oe_6",
+          "bidirec_6/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_7": {
+        "ports": [
+          "gpio_wrapper_0/oe_7",
+          "bidirec_7/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_8": {
+        "ports": [
+          "gpio_wrapper_0/oe_8",
+          "bidirec_8/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_9": {
+        "ports": [
+          "gpio_wrapper_0/oe_9",
+          "bidirec_9/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_10": {
+        "ports": [
+          "gpio_wrapper_0/oe_10",
+          "bidirec_10/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_11": {
+        "ports": [
+          "gpio_wrapper_0/oe_11",
+          "bidirec_11/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_12": {
+        "ports": [
+          "gpio_wrapper_0/oe_12",
+          "bidirec_12/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_13": {
+        "ports": [
+          "gpio_wrapper_0/oe_13",
+          "bidirec_13/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_14": {
+        "ports": [
+          "gpio_wrapper_0/oe_14",
+          "bidirec_14/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_15": {
+        "ports": [
+          "gpio_wrapper_0/oe_15",
+          "bidirec_15/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_16": {
+        "ports": [
+          "gpio_wrapper_0/oe_16",
+          "bidirec_16/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_17": {
+        "ports": [
+          "gpio_wrapper_0/oe_17",
+          "bidirec_17/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_18": {
+        "ports": [
+          "gpio_wrapper_0/oe_18",
+          "bidirec_18/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_19": {
+        "ports": [
+          "gpio_wrapper_0/oe_19",
+          "bidirec_19/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_20": {
+        "ports": [
+          "gpio_wrapper_0/oe_20",
+          "bidirec_20/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_21": {
+        "ports": [
+          "gpio_wrapper_0/oe_21",
+          "bidirec_21/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_22": {
+        "ports": [
+          "gpio_wrapper_0/oe_22",
+          "bidirec_22/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_23": {
+        "ports": [
+          "gpio_wrapper_0/oe_23",
+          "bidirec_23/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_24": {
+        "ports": [
+          "gpio_wrapper_0/oe_24",
+          "bidirec_24/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_25": {
+        "ports": [
+          "gpio_wrapper_0/oe_25",
+          "bidirec_25/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_26": {
+        "ports": [
+          "gpio_wrapper_0/oe_26",
+          "bidirec_26/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_27": {
+        "ports": [
+          "gpio_wrapper_0/oe_27",
+          "bidirec_27/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_28": {
+        "ports": [
+          "gpio_wrapper_0/oe_28",
+          "bidirec_28/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_29": {
+        "ports": [
+          "gpio_wrapper_0/oe_29",
+          "bidirec_29/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_30": {
+        "ports": [
+          "gpio_wrapper_0/oe_30",
+          "bidirec_30/oe"
+        ]
+      },
+      "gpio_wrapper_0_oe_31": {
+        "ports": [
+          "gpio_wrapper_0/oe_31",
+          "bidirec_31/oe"
+        ]
+      },
+      "gpio_wrapper_0_wb_ack_o": {
+        "ports": [
+          "gpio_wrapper_0/wb_ack_o",
+          "intcon_wrapper_bd_0/wb_gpio_ack_i"
+        ]
+      },
+      "gpio_wrapper_0_wb_dat_o": {
+        "ports": [
+          "gpio_wrapper_0/wb_dat_o",
+          "intcon_wrapper_bd_0/wb_gpio_dat_i"
+        ]
+      },
+      "gpio_wrapper_0_wb_err_o": {
+        "ports": [
+          "gpio_wrapper_0/wb_err_o",
+          "intcon_wrapper_bd_0/wb_gpio_err_i"
+        ]
+      },
+      "gpio_wrapper_0_wb_inta_o": {
+        "ports": [
+          "gpio_wrapper_0/wb_inta_o",
+          "syscon_wrapper_0/gpio_irq"
+        ]
+      },
       "intcon_wrapper_bd_0_o_ifu_arready": {
         "ports": [
           "intcon_wrapper_bd_0/o_ifu_arready",
@@ -3287,6 +3899,180 @@
         "ports": [
           "intcon_wrapper_bd_0/o_lsu_wready",
           "swerv_wrapper_verilog_0/lsu_axi_wready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_arready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_arready",
+          "swerv_wrapper_verilog_0/sb_axi_arready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_awready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_awready",
+          "swerv_wrapper_verilog_0/sb_axi_awready"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_bid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_bid",
+          "swerv_wrapper_verilog_0/sb_axi_bid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_bresp": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_bresp",
+          "swerv_wrapper_verilog_0/sb_axi_bresp"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_bvalid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_bvalid",
+          "swerv_wrapper_verilog_0/sb_axi_bvalid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_rdata": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_rdata",
+          "swerv_wrapper_verilog_0/sb_axi_rdata"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_rid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_rid",
+          "swerv_wrapper_verilog_0/sb_axi_rid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_rlast": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_rlast",
+          "swerv_wrapper_verilog_0/sb_axi_rlast"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_rresp": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_rresp",
+          "swerv_wrapper_verilog_0/sb_axi_rresp"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_rvalid": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_rvalid",
+          "swerv_wrapper_verilog_0/sb_axi_rvalid"
+        ]
+      },
+      "intcon_wrapper_bd_0_o_sb_wready": {
+        "ports": [
+          "intcon_wrapper_bd_0/o_sb_wready",
+          "swerv_wrapper_verilog_0/sb_axi_wready"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_adr_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_adr_o",
+          "gpio_wrapper_0/wb_adr_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_cyc_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_cyc_o",
+          "gpio_wrapper_0/wb_cyc_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_dat_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_dat_o",
+          "gpio_wrapper_0/wb_dat_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_sel_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_sel_o",
+          "gpio_wrapper_0/wb_sel_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_stb_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_stb_o",
+          "gpio_wrapper_0/wb_stb_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_gpio_we_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_gpio_we_o",
+          "gpio_wrapper_0/wb_we_i"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_adr_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_adr_o",
+          "bootrom_wrapper_0/i_wb_adr"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_cyc_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_cyc_o",
+          "bootrom_wrapper_0/i_wb_cyc"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_dat_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_dat_o",
+          "bootrom_wrapper_0/i_wb_dat"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_sel_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_sel_o",
+          "bootrom_wrapper_0/i_wb_sel"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_stb_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_stb_o",
+          "bootrom_wrapper_0/i_wb_stb"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_rom_we_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_rom_we_o",
+          "bootrom_wrapper_0/i_wb_we"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_adr_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_adr_o",
+          "syscon_wrapper_0/i_wb_adr"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_cyc_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_cyc_o",
+          "syscon_wrapper_0/i_wb_cyc"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_dat_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_dat_o",
+          "syscon_wrapper_0/i_wb_dat"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_sel_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_sel_o",
+          "syscon_wrapper_0/i_wb_sel"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_stb_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_stb_o",
+          "syscon_wrapper_0/i_wb_stb"
+        ]
+      },
+      "intcon_wrapper_bd_0_wb_sys_we_o": {
+        "ports": [
+          "intcon_wrapper_bd_0/wb_sys_we_o",
+          "syscon_wrapper_0/i_wb_we"
         ]
       },
       "swerv_wrapper_verilog_0_ifu_axi_araddr": {
@@ -3527,6 +4313,204 @@
         "ports": [
           "swerv_wrapper_verilog_0/lsu_axi_wvalid",
           "intcon_wrapper_bd_0/i_lsu_wvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_araddr": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_araddr",
+          "intcon_wrapper_bd_0/i_sb_araddr"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arburst": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arburst",
+          "intcon_wrapper_bd_0/i_sb_arburst"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arcache": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arcache",
+          "intcon_wrapper_bd_0/i_sb_arcache"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arid",
+          "intcon_wrapper_bd_0/i_sb_arid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arlen": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arlen",
+          "intcon_wrapper_bd_0/i_sb_arlen"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arlock": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arlock",
+          "intcon_wrapper_bd_0/i_sb_arlock"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arprot": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arprot",
+          "intcon_wrapper_bd_0/i_sb_arprot"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arqos": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arqos",
+          "intcon_wrapper_bd_0/i_sb_arqos"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arregion": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arregion",
+          "intcon_wrapper_bd_0/i_sb_arregion"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arsize": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arsize",
+          "intcon_wrapper_bd_0/i_sb_arsize"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_arvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_arvalid",
+          "intcon_wrapper_bd_0/i_sb_arvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awaddr": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awaddr",
+          "intcon_wrapper_bd_0/i_sb_awaddr"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awburst": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awburst",
+          "intcon_wrapper_bd_0/i_sb_awburst"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awcache": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awcache",
+          "intcon_wrapper_bd_0/i_sb_awcache"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awid",
+          "intcon_wrapper_bd_0/i_sb_awid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awlen": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awlen",
+          "intcon_wrapper_bd_0/i_sb_awlen"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awlock": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awlock",
+          "intcon_wrapper_bd_0/i_sb_awlock"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awprot": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awprot",
+          "intcon_wrapper_bd_0/i_sb_awprot"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awqos": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awqos",
+          "intcon_wrapper_bd_0/i_sb_awqos"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awregion": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awregion",
+          "intcon_wrapper_bd_0/i_sb_awregion"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awsize": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awsize",
+          "intcon_wrapper_bd_0/i_sb_awsize"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_awvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_awvalid",
+          "intcon_wrapper_bd_0/i_sb_awvalid"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_bready": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_bready",
+          "intcon_wrapper_bd_0/i_sb_bready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_rready": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_rready",
+          "intcon_wrapper_bd_0/i_sb_rready"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_wdata": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_wdata",
+          "intcon_wrapper_bd_0/i_sb_wdata"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_wlast": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_wlast",
+          "intcon_wrapper_bd_0/i_sb_wlast"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_wstrb": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_wstrb",
+          "intcon_wrapper_bd_0/i_sb_wstrb"
+        ]
+      },
+      "swerv_wrapper_verilog_0_sb_axi_wvalid": {
+        "ports": [
+          "swerv_wrapper_verilog_0/sb_axi_wvalid",
+          "intcon_wrapper_bd_0/i_sb_wvalid"
+        ]
+      },
+      "syscon_wrapper_0_o_nmi_int": {
+        "ports": [
+          "syscon_wrapper_0/o_nmi_int",
+          "swerv_wrapper_verilog_0/nmi_int"
+        ]
+      },
+      "syscon_wrapper_0_o_nmi_vec": {
+        "ports": [
+          "syscon_wrapper_0/o_nmi_vec",
+          "swerv_wrapper_verilog_0/nmi_vec"
+        ]
+      },
+      "syscon_wrapper_0_o_timer_irq": {
+        "ports": [
+          "syscon_wrapper_0/o_timer_irq",
+          "swerv_wrapper_verilog_0/timer_int"
+        ]
+      },
+      "syscon_wrapper_0_o_wb_ack": {
+        "ports": [
+          "syscon_wrapper_0/o_wb_ack",
+          "intcon_wrapper_bd_0/wb_sys_ack_i"
+        ]
+      },
+      "syscon_wrapper_0_o_wb_rdt": {
+        "ports": [
+          "syscon_wrapper_0/o_wb_rdt",
+          "intcon_wrapper_bd_0/wb_sys_dat_i"
         ]
       }
     }
