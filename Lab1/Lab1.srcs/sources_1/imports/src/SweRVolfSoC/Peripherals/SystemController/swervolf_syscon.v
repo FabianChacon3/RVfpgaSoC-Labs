@@ -316,53 +316,55 @@ module SevSegDisplays_Controller(
 
 
 
-  wire [ 7:0] [7:0] enable;
+// Definir arreglos unidimensionales
+wire [63:0] enable_flat;          // Aplanado de [7:0][7:0] a [63:0]
+wire [31:0] digits_concat_flat;   // Aplanado de [7:0][3:0] a [31:0]
 
-  assign enable[0] = (Enables_Reg | 8'hfe);
-  assign enable[1] = (Enables_Reg | 8'hfd);
-  assign enable[2] = (Enables_Reg | 8'hfb);
-  assign enable[3] = (Enables_Reg | 8'hf7);
-  assign enable[4] = (Enables_Reg | 8'hef);
-  assign enable[5] = (Enables_Reg | 8'hdf);
-  assign enable[6] = (Enables_Reg | 8'hbf);
-  assign enable[7] = (Enables_Reg | 8'h7f);
+// Asignaciones para enable
+assign enable_flat[7:0]   = (Enables_Reg | 8'hfe);
+assign enable_flat[15:8]  = (Enables_Reg | 8'hfd);
+assign enable_flat[23:16] = (Enables_Reg | 8'hfb);
+assign enable_flat[31:24] = (Enables_Reg | 8'hf7);
+assign enable_flat[39:32] = (Enables_Reg | 8'hef);
+assign enable_flat[47:40] = (Enables_Reg | 8'hdf);
+assign enable_flat[55:48] = (Enables_Reg | 8'hbf);
+assign enable_flat[63:56] = (Enables_Reg | 8'h7f);
 
-  SevSegMux
-  #(
+// Adaptar la instancia de SevSegMux para trabajar con enable_flat
+SevSegMux
+#(
     .DATA_WIDTH(8),
     .N_IN(8)
-  )
-  Select_Enables
-  (
-    .IN_DATA(enable),
+)
+Select_Enables
+(
+    .IN_DATA(enable_flat), // Cambiado a un arreglo unidimensional
     .OUT_DATA(AN),
     .SEL(countSelection[(COUNT_MAX-1):(COUNT_MAX-3)])
-  );
+);
 
+// Asignaciones para digits_concat
+assign digits_concat_flat[3:0]   = Digits_Reg[3:0];
+assign digits_concat_flat[7:4]   = Digits_Reg[7:4];
+assign digits_concat_flat[11:8]  = Digits_Reg[11:8];
+assign digits_concat_flat[15:12] = Digits_Reg[15:12];
+assign digits_concat_flat[19:16] = Digits_Reg[19:16];
+assign digits_concat_flat[23:20] = Digits_Reg[23:20];
+assign digits_concat_flat[27:24] = Digits_Reg[27:24];
+assign digits_concat_flat[31:28] = Digits_Reg[31:28];
 
-  wire [ 7:0] [3:0] digits_concat;
-
-  assign digits_concat[0] = Digits_Reg[3:0];
-  assign digits_concat[1] = Digits_Reg[7:4];
-  assign digits_concat[2] = Digits_Reg[11:8];
-  assign digits_concat[3] = Digits_Reg[15:12];
-  assign digits_concat[4] = Digits_Reg[19:16];
-  assign digits_concat[5] = Digits_Reg[23:20];
-  assign digits_concat[6] = Digits_Reg[27:24];
-  assign digits_concat[7] = Digits_Reg[31:28];
-
-  SevSegMux
-  #(
+// Adaptar la instancia de SevSegMux para trabajar con digits_concat_flat
+SevSegMux
+#(
     .DATA_WIDTH(4),
     .N_IN(8)
-  )
-  Select_Digits
-  (
-    .IN_DATA(digits_concat),
+)
+Select_Digits
+(
+    .IN_DATA(digits_concat_flat), // Cambiado a un arreglo unidimensional
     .OUT_DATA(DecNumber),
     .SEL(countSelection[(COUNT_MAX-1):(COUNT_MAX-3)])
-  );
-
+);
 endmodule
 
 
