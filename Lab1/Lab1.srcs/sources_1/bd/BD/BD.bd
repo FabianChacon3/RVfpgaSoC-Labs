@@ -18,7 +18,14 @@
       "syscon_wrapper_0": "",
       "bidirec_0": "",
       "bidirec_1": "",
+      "bidirec_10": "",
+      "bidirec_11": "",
+      "bidirec_12": "",
+      "bidirec_13": "",
+      "bidirec_14": "",
+      "bidirec_15": "",
       "bidirec_2": "",
+      "bidirec_16": "",
       "bidirec_3": "",
       "bidirec_4": "",
       "bidirec_5": "",
@@ -26,20 +33,13 @@
       "bidirec_7": "",
       "bidirec_8": "",
       "bidirec_9": "",
-      "bidirec_10": "",
-      "bidirec_11": "",
-      "bidirec_12": "",
-      "bidirec_13": "",
-      "bidirec_14": "",
-      "bidirec_15": "",
-      "bidirec_16": "",
-      "bidirec_17": "",
       "bidirec_18": "",
       "bidirec_19": "",
       "bidirec_20": "",
       "bidirec_21": "",
       "bidirec_22": "",
       "bidirec_23": "",
+      "bidirec_17": "",
       "bidirec_24": "",
       "bidirec_25": "",
       "bidirec_26": "",
@@ -3252,11 +3252,186 @@
           }
         }
       },
+      "bidirec_10": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_10",
+        "xci_path": "ip/BD_bidirec_0_10/BD_bidirec_0_10.xci",
+        "inst_hier_path": "bidirec_10",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_11": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_11",
+        "xci_path": "ip/BD_bidirec_0_11/BD_bidirec_0_11.xci",
+        "inst_hier_path": "bidirec_11",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_12": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_12",
+        "xci_path": "ip/BD_bidirec_0_12/BD_bidirec_0_12.xci",
+        "inst_hier_path": "bidirec_12",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_13": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_13",
+        "xci_path": "ip/BD_bidirec_0_13/BD_bidirec_0_13.xci",
+        "inst_hier_path": "bidirec_13",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_14": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_14",
+        "xci_path": "ip/BD_bidirec_0_14/BD_bidirec_0_14.xci",
+        "inst_hier_path": "bidirec_14",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_15": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_15",
+        "xci_path": "ip/BD_bidirec_0_15/BD_bidirec_0_15.xci",
+        "inst_hier_path": "bidirec_15",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
       "bidirec_2": {
         "vlnv": "xilinx.com:module_ref:bidirec:1.0",
         "xci_name": "BD_bidirec_0_2",
         "xci_path": "ip/BD_bidirec_0_2/BD_bidirec_0_2.xci",
         "inst_hier_path": "bidirec_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_16": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_0_20",
+        "xci_path": "ip/BD_bidirec_0_20/BD_bidirec_0_20.xci",
+        "inst_hier_path": "bidirec_16",
         "reference_info": {
           "ref_type": "hdl",
           "ref_name": "bidirec",
@@ -3452,206 +3627,6 @@
           }
         }
       },
-      "bidirec_10": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_10",
-        "xci_path": "ip/BD_bidirec_0_10/BD_bidirec_0_10.xci",
-        "inst_hier_path": "bidirec_10",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_11": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_11",
-        "xci_path": "ip/BD_bidirec_0_11/BD_bidirec_0_11.xci",
-        "inst_hier_path": "bidirec_11",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_12": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_12",
-        "xci_path": "ip/BD_bidirec_0_12/BD_bidirec_0_12.xci",
-        "inst_hier_path": "bidirec_12",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_13": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_13",
-        "xci_path": "ip/BD_bidirec_0_13/BD_bidirec_0_13.xci",
-        "inst_hier_path": "bidirec_13",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_14": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_14",
-        "xci_path": "ip/BD_bidirec_0_14/BD_bidirec_0_14.xci",
-        "inst_hier_path": "bidirec_14",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_15": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_15",
-        "xci_path": "ip/BD_bidirec_0_15/BD_bidirec_0_15.xci",
-        "inst_hier_path": "bidirec_15",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_16": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_0_20",
-        "xci_path": "ip/BD_bidirec_0_20/BD_bidirec_0_20.xci",
-        "inst_hier_path": "bidirec_16",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
-      "bidirec_17": {
-        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
-        "xci_name": "BD_bidirec_1_0",
-        "xci_path": "ip/BD_bidirec_1_0/BD_bidirec_1_0.xci",
-        "inst_hier_path": "bidirec_17",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "bidirec",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "oe": {
-            "direction": "I"
-          },
-          "inp": {
-            "direction": "I"
-          },
-          "outp": {
-            "direction": "O"
-          },
-          "bidir": {
-            "direction": "O"
-          }
-        }
-      },
       "bidirec_18": {
         "vlnv": "xilinx.com:module_ref:bidirec:1.0",
         "xci_name": "BD_bidirec_10_0",
@@ -3782,6 +3757,31 @@
         "xci_name": "BD_bidirec_15_0",
         "xci_path": "ip/BD_bidirec_15_0/BD_bidirec_15_0.xci",
         "inst_hier_path": "bidirec_23",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "bidirec",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "oe": {
+            "direction": "I"
+          },
+          "inp": {
+            "direction": "I"
+          },
+          "outp": {
+            "direction": "O"
+          },
+          "bidir": {
+            "direction": "O"
+          }
+        }
+      },
+      "bidirec_17": {
+        "vlnv": "xilinx.com:module_ref:bidirec:1.0",
+        "xci_name": "BD_bidirec_1_0",
+        "xci_path": "ip/BD_bidirec_1_0/BD_bidirec_1_0.xci",
+        "inst_hier_path": "bidirec_17",
         "reference_info": {
           "ref_type": "hdl",
           "ref_name": "bidirec",
@@ -4406,8 +4406,8 @@
           "swerv_wrapper_verilog_0/clk",
           "intcon_wrapper_bd_0/clk_i_wrapper",
           "bootrom_wrapper_0/i_clk",
-          "syscon_wrapper_0/i_clk",
-          "gpio_wrapper_0/wb_clk_i"
+          "gpio_wrapper_0/wb_clk_i",
+          "syscon_wrapper_0/i_clk"
         ]
       },
       "dmi_hard_reset_0_1": {
@@ -5376,8 +5376,8 @@
           "swerv_wrapper_verilog_0/rst",
           "intcon_wrapper_bd_0/rst_ni_wrapper",
           "bootrom_wrapper_0/i_rst",
-          "syscon_wrapper_0/i_rst",
-          "gpio_wrapper_0/wb_rst_i"
+          "gpio_wrapper_0/wb_rst_i",
+          "syscon_wrapper_0/i_rst"
         ]
       },
       "swerv_wrapper_verilog_0_dmi_reg_rdata": {
