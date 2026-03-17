@@ -29,8 +29,29 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_
 # IP: bd/BD/ip/BD_bidirec_0_1/BD_bidirec_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_1 || ORIG_REF_NAME==BD_bidirec_0_1} -quiet] -quiet
 
+# IP: bd/BD/ip/BD_bidirec_0_10/BD_bidirec_0_10.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_10 || ORIG_REF_NAME==BD_bidirec_0_10} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_11/BD_bidirec_0_11.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_11 || ORIG_REF_NAME==BD_bidirec_0_11} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_12/BD_bidirec_0_12.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_12 || ORIG_REF_NAME==BD_bidirec_0_12} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_13/BD_bidirec_0_13.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_13 || ORIG_REF_NAME==BD_bidirec_0_13} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_14/BD_bidirec_0_14.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_14 || ORIG_REF_NAME==BD_bidirec_0_14} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_15/BD_bidirec_0_15.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_15 || ORIG_REF_NAME==BD_bidirec_0_15} -quiet] -quiet
+
 # IP: bd/BD/ip/BD_bidirec_0_2/BD_bidirec_0_2.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_2 || ORIG_REF_NAME==BD_bidirec_0_2} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_0_20/BD_bidirec_0_20.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_20 || ORIG_REF_NAME==BD_bidirec_0_20} -quiet] -quiet
 
 # IP: bd/BD/ip/BD_bidirec_0_3/BD_bidirec_0_3.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_3 || ORIG_REF_NAME==BD_bidirec_0_3} -quiet] -quiet
@@ -53,30 +74,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_
 # IP: bd/BD/ip/BD_bidirec_0_9/BD_bidirec_0_9.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_9 || ORIG_REF_NAME==BD_bidirec_0_9} -quiet] -quiet
 
-# IP: bd/BD/ip/BD_bidirec_0_10/BD_bidirec_0_10.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_10 || ORIG_REF_NAME==BD_bidirec_0_10} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_11/BD_bidirec_0_11.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_11 || ORIG_REF_NAME==BD_bidirec_0_11} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_12/BD_bidirec_0_12.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_12 || ORIG_REF_NAME==BD_bidirec_0_12} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_13/BD_bidirec_0_13.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_13 || ORIG_REF_NAME==BD_bidirec_0_13} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_14/BD_bidirec_0_14.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_14 || ORIG_REF_NAME==BD_bidirec_0_14} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_15/BD_bidirec_0_15.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_15 || ORIG_REF_NAME==BD_bidirec_0_15} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_0_20/BD_bidirec_0_20.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_0_20 || ORIG_REF_NAME==BD_bidirec_0_20} -quiet] -quiet
-
-# IP: bd/BD/ip/BD_bidirec_1_0/BD_bidirec_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_1_0 || ORIG_REF_NAME==BD_bidirec_1_0} -quiet] -quiet
-
 # IP: bd/BD/ip/BD_bidirec_10_0/BD_bidirec_10_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_10_0 || ORIG_REF_NAME==BD_bidirec_10_0} -quiet] -quiet
 
@@ -94,6 +91,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_
 
 # IP: bd/BD/ip/BD_bidirec_15_0/BD_bidirec_15_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_15_0 || ORIG_REF_NAME==BD_bidirec_15_0} -quiet] -quiet
+
+# IP: bd/BD/ip/BD_bidirec_1_0/BD_bidirec_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_1_0 || ORIG_REF_NAME==BD_bidirec_1_0} -quiet] -quiet
 
 # IP: bd/BD/ip/BD_bidirec_2_0/BD_bidirec_2_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==BD_bidirec_2_0 || ORIG_REF_NAME==BD_bidirec_2_0} -quiet] -quiet
