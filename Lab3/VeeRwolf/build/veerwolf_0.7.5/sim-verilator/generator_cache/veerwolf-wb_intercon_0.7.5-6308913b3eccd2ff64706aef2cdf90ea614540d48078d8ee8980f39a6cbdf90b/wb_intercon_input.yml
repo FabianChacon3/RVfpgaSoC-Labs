@@ -1,0 +1,24 @@
+files_root: /home/gost/Desktop/Repositories/RVfpgaSoC-Labs/Lab3/VeeRwolf/fusesoc_libraries/veerwolf
+gapi: '1.0'
+parameters:
+  masters:
+    io:
+      slaves:
+      - rom
+      - sys
+      - spi_flash
+      - uart
+  slaves:
+    rom:
+      offset: 0
+      size: 4096
+    sys:
+      offset: 4096
+      size: 64
+    spi_flash:
+      offset: 4160
+      size: 64
+    uart:
+      offset: 8192
+      size: 4096
+vlnv: ::veerwolf-wb_intercon:0.7.5

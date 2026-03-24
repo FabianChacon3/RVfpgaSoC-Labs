@@ -1,0 +1,4 @@
+files_root: /home/gost/Desktop/Repositories/RVfpgaSoC-Labs/Lab3/VeeRwolf/fusesoc_libraries/veerwolf
+gapi: '1.0'
+parameters: {}
+vlnv: ::veerwolf-version:0.7.5

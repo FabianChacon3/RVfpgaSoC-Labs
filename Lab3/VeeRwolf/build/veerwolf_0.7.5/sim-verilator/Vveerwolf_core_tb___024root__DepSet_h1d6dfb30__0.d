@@ -1,0 +1,3 @@
+Vveerwolf_core_tb___024root__DepSet_h1d6dfb30__0.o: \
+ Vveerwolf_core_tb___024root__DepSet_h1d6dfb30__0.cpp \
+ Vveerwolf_core_tb__pch.h Vveerwolf_core_tb___024root.h
