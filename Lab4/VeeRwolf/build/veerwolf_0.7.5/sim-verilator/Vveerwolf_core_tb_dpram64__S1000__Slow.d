@@ -1,0 +1,3 @@
+Vveerwolf_core_tb_dpram64__S1000__Slow.o: \
+ Vveerwolf_core_tb_dpram64__S1000__Slow.cpp Vveerwolf_core_tb__pch.h \
+ Vveerwolf_core_tb__Syms.h Vveerwolf_core_tb_dpram64__S1000.h

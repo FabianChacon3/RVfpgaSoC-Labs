@@ -1,0 +1,37 @@
+CAPI=2:
+name: ::veerwolf-version:0.7.5
+filesets: {}
+parameters:
+  VERSION_MAJOR:
+    datatype: int
+    default: 0
+    paramtype: vlogdefine
+  VERSION_MINOR:
+    datatype: int
+    default: 7
+    paramtype: vlogdefine
+  VERSION_PATCH:
+    datatype: int
+    default: 5
+    paramtype: vlogdefine
+  VERSION_REV:
+    datatype: int
+    default: 13
+    paramtype: vlogdefine
+  VERSION_DIRTY:
+    datatype: bool
+    default: false
+    paramtype: vlogdefine
+  VERSION_SHA:
+    datatype: str
+    default: 9a919805
+    paramtype: vlogdefine
+targets:
+  default:
+    parameters:
+    - VERSION_MAJOR
+    - VERSION_MINOR
+    - VERSION_PATCH
+    - VERSION_REV
+    - VERSION_DIRTY
+    - VERSION_SHA

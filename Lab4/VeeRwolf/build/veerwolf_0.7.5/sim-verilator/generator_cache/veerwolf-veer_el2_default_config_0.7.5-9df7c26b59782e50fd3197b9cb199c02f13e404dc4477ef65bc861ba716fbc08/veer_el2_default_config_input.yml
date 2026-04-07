@@ -1,0 +1,9 @@
+files_root: /home/gost/Desktop/Repositories/RVfpgaSoC-Labs/Lab3/VeeRwolf/fusesoc_libraries/veerwolf
+gapi: '1.0'
+parameters:
+  args:
+  - -unset=assert_on
+  - -set=reset_vec=0x80000000
+  - -set=fpga_optimize=1
+  - -set=pic_total_int=8
+vlnv: ::veerwolf-veer_el2_default_config:0.7.5
